@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 zhaoyou. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ProfileViewController.h"
 
-@interface SecondViewController ()
+@interface ProfileViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation ProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

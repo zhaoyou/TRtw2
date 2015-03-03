@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 zhaoyou. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "TweetViewController.h"
 
-@interface FirstViewController ()
+@interface TweetViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation TweetViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

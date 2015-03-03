@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Accounts/ACAccount.h"
+#import "Accounts/ACAccountStore.h"
+
+#
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) ACAccountStore *accountStore;
+@property (strong, nonatomic) NSMutableDictionary *profileImages;
+@property (strong, nonatomic) ACAccount *userAccount;
 
 @end
 

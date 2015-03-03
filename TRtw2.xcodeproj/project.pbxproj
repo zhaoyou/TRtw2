@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AAEEA51AA1F7DF005D4F8B /* Go.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18AAEEA41AA1F7DF005D4F8B /* Go.jpg */; };
 		18AD93331AA197DB0003A92F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD93321AA197DB0003A92F /* main.m */; };
 		18AD93361AA197DB0003A92F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD93351AA197DB0003A92F /* AppDelegate.m */; };
-		18AD93391AA197DB0003A92F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD93381AA197DB0003A92F /* FirstViewController.m */; };
-		18AD933C1AA197DB0003A92F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD933B1AA197DB0003A92F /* SecondViewController.m */; };
+		18AD93391AA197DB0003A92F /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD93381AA197DB0003A92F /* TweetViewController.m */; };
+		18AD933C1AA197DB0003A92F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD933B1AA197DB0003A92F /* ProfileViewController.m */; };
 		18AD933F1AA197DB0003A92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD933D1AA197DB0003A92F /* Main.storyboard */; };
 		18AD93411AA197DB0003A92F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AD93401AA197DB0003A92F /* Images.xcassets */; };
 		18AD93441AA197DB0003A92F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AD93421AA197DB0003A92F /* LaunchScreen.xib */; };
 		18AD93501AA197DB0003A92F /* TRtw2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD934F1AA197DB0003A92F /* TRtw2Tests.m */; };
+		18AD935A1AA197ED0003A92F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD93591AA197ED0003A92F /* Accounts.framework */; };
+		18AD935C1AA198060003A92F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD935B1AA198060003A92F /* Social.framework */; };
+		18AD935F1AA19C920003A92F /* FollowMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD935E1AA19C920003A92F /* FollowMeViewController.m */; };
+		18AD93621AA19CD60003A92F /* PublicTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD93611AA19CD60003A92F /* PublicTimelineViewController.m */; };
+		18AD93651AA19CFA0003A92F /* MentionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD93641AA19CFA0003A92F /* MentionsViewController.m */; };
+		18BD8C141AA1B0920001E5E7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BD8C131AA1B0920001E5E7 /* Twitter.framework */; };
+		18BD8C1A1AA1C0BB0001E5E7 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8C191AA1C0BB0001E5E7 /* TweetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +36,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18AAEEA41AA1F7DF005D4F8B /* Go.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Go.jpg; path = ../../../Pictures/Go.jpg; sourceTree = "<group>"; };
 		18AD932D1AA197DB0003A92F /* TRtw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRtw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AD93311AA197DB0003A92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AD93321AA197DB0003A92F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18AD93341AA197DB0003A92F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18AD93351AA197DB0003A92F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18AD93371AA197DB0003A92F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		18AD93381AA197DB0003A92F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		18AD933A1AA197DB0003A92F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		18AD933B1AA197DB0003A92F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18AD93371AA197DB0003A92F /* TweetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		18AD93381AA197DB0003A92F /* TweetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		18AD933A1AA197DB0003A92F /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		18AD933B1AA197DB0003A92F /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		18AD933E1AA197DB0003A92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AD93401AA197DB0003A92F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18AD93431AA197DB0003A92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18AD93491AA197DB0003A92F /* TRtw2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRtw2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AD934E1AA197DB0003A92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AD934F1AA197DB0003A92F /* TRtw2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRtw2Tests.m; sourceTree = "<group>"; };
+		18AD93591AA197ED0003A92F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		18AD935B1AA198060003A92F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		18AD935D1AA19C920003A92F /* FollowMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowMeViewController.h; sourceTree = "<group>"; };
+		18AD935E1AA19C920003A92F /* FollowMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowMeViewController.m; sourceTree = "<group>"; };
+		18AD93601AA19CD60003A92F /* PublicTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicTimelineViewController.h; sourceTree = "<group>"; };
+		18AD93611AA19CD60003A92F /* PublicTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicTimelineViewController.m; sourceTree = "<group>"; };
+		18AD93631AA19CFA0003A92F /* MentionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentionsViewController.h; sourceTree = "<group>"; };
+		18AD93641AA19CFA0003A92F /* MentionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentionsViewController.m; sourceTree = "<group>"; };
+		18BD8C131AA1B0920001E5E7 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		18BD8C181AA1C0BB0001E5E7 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TweetCell.h; path = ../TweetCell.h; sourceTree = "<group>"; };
+		18BD8C191AA1C0BB0001E5E7 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TweetCell.m; path = ../TweetCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BD8C141AA1B0920001E5E7 /* Twitter.framework in Frameworks */,
+				18AD935C1AA198060003A92F /* Social.framework in Frameworks */,
+				18AD935A1AA197ED0003A92F /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +89,10 @@
 		18AD93241AA197DB0003A92F = {
 			isa = PBXGroup;
 			children = (
+				18AAEEA41AA1F7DF005D4F8B /* Go.jpg */,
+				18BD8C131AA1B0920001E5E7 /* Twitter.framework */,
+				18AD935B1AA198060003A92F /* Social.framework */,
+				18AD93591AA197ED0003A92F /* Accounts.framework */,
 				18AD932F1AA197DB0003A92F /* TRtw2 */,
 				18AD934C1AA197DB0003A92F /* TRtw2Tests */,
 				18AD932E1AA197DB0003A92F /* Products */,
@@ -86,10 +113,18 @@
 			children = (
 				18AD93341AA197DB0003A92F /* AppDelegate.h */,
 				18AD93351AA197DB0003A92F /* AppDelegate.m */,
-				18AD93371AA197DB0003A92F /* FirstViewController.h */,
-				18AD93381AA197DB0003A92F /* FirstViewController.m */,
-				18AD933A1AA197DB0003A92F /* SecondViewController.h */,
-				18AD933B1AA197DB0003A92F /* SecondViewController.m */,
+				18BD8C181AA1C0BB0001E5E7 /* TweetCell.h */,
+				18BD8C191AA1C0BB0001E5E7 /* TweetCell.m */,
+				18AD93371AA197DB0003A92F /* TweetViewController.h */,
+				18AD93381AA197DB0003A92F /* TweetViewController.m */,
+				18AD933A1AA197DB0003A92F /* ProfileViewController.h */,
+				18AD933B1AA197DB0003A92F /* ProfileViewController.m */,
+				18AD935D1AA19C920003A92F /* FollowMeViewController.h */,
+				18AD935E1AA19C920003A92F /* FollowMeViewController.m */,
+				18AD93601AA19CD60003A92F /* PublicTimelineViewController.h */,
+				18AD93611AA19CD60003A92F /* PublicTimelineViewController.m */,
+				18AD93631AA19CFA0003A92F /* MentionsViewController.h */,
+				18AD93641AA19CFA0003A92F /* MentionsViewController.m */,
 				18AD933D1AA197DB0003A92F /* Main.storyboard */,
 				18AD93401AA197DB0003A92F /* Images.xcassets */,
 				18AD93421AA197DB0003A92F /* LaunchScreen.xib */,
@@ -207,6 +242,7 @@
 				18AD933F1AA197DB0003A92F /* Main.storyboard in Resources */,
 				18AD93441AA197DB0003A92F /* LaunchScreen.xib in Resources */,
 				18AD93411AA197DB0003A92F /* Images.xcassets in Resources */,
+				18AAEEA51AA1F7DF005D4F8B /* Go.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AD933C1AA197DB0003A92F /* SecondViewController.m in Sources */,
+				18AD933C1AA197DB0003A92F /* ProfileViewController.m in Sources */,
+				18AD935F1AA19C920003A92F /* FollowMeViewController.m in Sources */,
 				18AD93361AA197DB0003A92F /* AppDelegate.m in Sources */,
-				18AD93391AA197DB0003A92F /* FirstViewController.m in Sources */,
+				18AD93651AA19CFA0003A92F /* MentionsViewController.m in Sources */,
+				18AD93391AA197DB0003A92F /* TweetViewController.m in Sources */,
+				18AD93621AA19CD60003A92F /* PublicTimelineViewController.m in Sources */,
 				18AD93331AA197DB0003A92F /* main.m in Sources */,
+				18BD8C1A1AA1C0BB0001E5E7 /* TweetCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +458,7 @@
 				18AD93551AA197DB0003A92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AD93561AA197DB0003A92F /* Build configuration list for PBXNativeTarget "TRtw2Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +467,7 @@
 				18AD93581AA197DB0003A92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

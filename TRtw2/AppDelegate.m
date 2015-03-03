@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Accounts/ACAccountType.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.accountStore = [[ACAccountStore alloc] init];
+    self.profileImages = [NSMutableDictionary dictionary];
+    
+    ACAccountType *accountType = [self.accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
+    [self.accountStore requestAccessToAccountsWithType:accountType options:nil completion:^(BOOL granted, NSError *error) {
+        if (granted) {
+            NSArray *accounts = [self.accountStore accountsWithAccountType:accountType];
+            
+            if ([accounts count]) {
+                self.userAccount = [accounts firstObject];
+                NSLog(@"Twitter %@", self.userAccount);
+                [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"TwitterAccountAcquiredNotification" object:nil]];
+            } else {
+                NSLog(@"No twitter Account");
+            }
+        }
+    }];
     return YES;
 }
 

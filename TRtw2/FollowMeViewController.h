@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  FollowMeViewController.h
 //  TRtw2
 //
 //  Created by zhaoyou on 2/28/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface FollowMeViewController : UIViewController
 
 @end
-
